@@ -21,3 +21,25 @@
    > 子元素选择器
    + 兄弟元素选择器
    
+- display 属性
+  div black  
+  span i a  inline
+  display 切换行内块级的格式化上下文能力
+  inline-block 行内块级 设置宽高 在一行
+  inline 行内 不可以设置宽高
+  block 块级 独占一行
+
+- 面向对象的 css
+  多态
+  复用 多类名
+- 定位
+  - position 定位
+    static 没有定位能力
+    relative 相对定位
+      - 子元素相对它定位
+      - 相对于自身的位置定位
+    absolute 绝对定位
+      - 
+    absolute 找到离它最近的（管着它的）position 不是static 的定位
+    直到body 为止
+    .container absolute body
